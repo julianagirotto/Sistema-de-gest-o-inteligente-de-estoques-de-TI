@@ -8,7 +8,7 @@
 
 ---
 
-## 2. Arquitetura em 5 Camadas (Baseada no Conteúdo da Disciplina)
+## 2. Arquitetura em 5 Camadas
 
 ### **Camada 1: Percepção (Sensores e Dispositivos IoT)**
 
