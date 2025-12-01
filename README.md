@@ -151,7 +151,7 @@ O sistema segue a **arquitetura IoT de 5 camadas**:
 
 ### Passo 1: Clone o Repositório
 ```bash
-git clone https://github.com/seu-usuario/smartstock-iot.git
+git clone (https://github.com/julianagirotto/Sistema-de-gest-o-inteligente-de-estoques-de-TI)
 cd smartstock-iot
 ```
 
