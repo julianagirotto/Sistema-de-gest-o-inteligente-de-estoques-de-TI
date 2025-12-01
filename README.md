@@ -248,23 +248,6 @@ smartstock-iot/
 - 📈 **ROI de 250%** em 12 meses
 - ⚡ **Aumento de 25%** em disponibilidade de equipamentos
 
----
-
-## 🎥 Demonstração
-
-### Screenshots
-
-#### Dashboard Principal
-![Dashboard](docs/screenshots/dashboard.png)
-
-#### Manutenção Preditiva
-![Manutenção](docs/screenshots/manutencao_preditiva.png)
-
-#### Previsão de Demanda
-![Demanda](docs/screenshots/previsao_demanda.png)
-
-### Vídeo Demo
-🎬 [Assista ao vídeo pitch de 5 minutos](https://youtu.be/seu-video-aqui)
 
 ---
 
@@ -274,14 +257,6 @@ Execute os testes unitários:
 ```bash
 pytest tests/
 ```
-
----
-
-## 📚 Documentação Adicional
-
-- [Arquitetura Detalhada](docs/arquitetura_projeto.md)
-- [Relatório Técnico (PDF)](docs/relatorio_tecnico.pdf)
-- [Apresentação (Slides)](docs/apresentacao.pdf)
 
 ---
 
@@ -299,10 +274,7 @@ Contribuições são bem-vindas! Para contribuir:
 
 ## 👥 Autores
 
-**[Seu Nome]** - Engenheira de Produção
-- 📧 Email: seu.email@exemplo.com
-- 💼 LinkedIn: [seu-perfil](https://linkedin.com/in/seu-perfil)
-- 🐙 GitHub: [@seu-usuario](https://github.com/seu-usuario)
+**[Juliana Girotto]** - Engenheira de Produção
 
 ---
 
@@ -310,14 +282,6 @@ Contribuições são bem-vindas! Para contribuir:
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
----
-
-## 🙏 Agradecimentos
-
-- **Prof. Cristiano André da Costa** - Orientação e conteúdo da disciplina
-- **Prof. Rodrigo da Costa Righi** - Orientação e conteúdo da disciplina
-- **Unisinos** - Universidade do Vale do Rio dos Sinos
-- **Comunidade Open Source** - Bibliotecas e ferramentas utilizadas
 
 ---
 
@@ -333,13 +297,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 5. **Plotly Dash Documentation**: https://dash.plotly.com
 
----
-
-## 📞 Contato
-
-Para dúvidas, sugestões ou parcerias:
-- 📧 Email: seu.email@exemplo.com
-- 💬 Issues: [GitHub Issues](https://github.com/seu-usuario/smartstock-iot/issues)
 
 ---
 
