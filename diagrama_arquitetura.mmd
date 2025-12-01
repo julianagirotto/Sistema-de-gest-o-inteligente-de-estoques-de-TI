@@ -1,0 +1,77 @@
+graph TB
+    subgraph "CAMADA 1: PERCEPÇÃO"
+        S1[Sensor RFID]
+        S2[Sensor Temperatura]
+        S3[Sensor Uso CPU/RAM]
+        S4[Sensor Bateria]
+        S5[Leitor QR Code]
+    end
+    
+    subgraph "CAMADA 2: REDE"
+        MQTT[Broker MQTT]
+        GW[Gateway IoT<br/>Edge Computing]
+        API[API REST]
+    end
+    
+    subgraph "CAMADA 3: MIDDLEWARE"
+        ETL[Pipeline ETL]
+        DB1[(MongoDB<br/>Inventário)]
+        DB2[(InfluxDB<br/>Séries Temporais)]
+        DB3[(PostgreSQL<br/>Transações)]
+    end
+    
+    subgraph "CAMADA 4: APLICAÇÃO IA"
+        ML1[Previsão de Demanda<br/>ARIMA/Prophet]
+        ML2[Manutenção Preditiva<br/>Random Forest]
+        ML3[Classificação Estado<br/>K-Means]
+        ML4[Detecção Anomalias<br/>Isolation Forest]
+        ML5[Otimização Estoque<br/>Regressão]
+    end
+    
+    subgraph "CAMADA 5: NEGÓCIO"
+        DASH[Dashboard Interativo<br/>Plotly Dash]
+        ALERT[Sistema de Alertas]
+        REP[Relatórios Gerenciais]
+    end
+    
+    S1 --> GW
+    S2 --> GW
+    S3 --> GW
+    S4 --> GW
+    S5 --> GW
+    
+    GW --> MQTT
+    MQTT --> ETL
+    API --> ETL
+    
+    ETL --> DB1
+    ETL --> DB2
+    ETL --> DB3
+    
+    DB1 --> ML1
+    DB2 --> ML2
+    DB2 --> ML3
+    DB2 --> ML4
+    DB3 --> ML5
+    
+    ML1 --> DASH
+    ML2 --> DASH
+    ML3 --> DASH
+    ML4 --> ALERT
+    ML5 --> DASH
+    
+    DASH --> REP
+    ALERT --> REP
+    
+    style S1 fill:#e1f5ff
+    style S2 fill:#e1f5ff
+    style S3 fill:#e1f5ff
+    style S4 fill:#e1f5ff
+    style S5 fill:#e1f5ff
+    style GW fill:#fff4e1
+    style ML1 fill:#f0e1ff
+    style ML2 fill:#f0e1ff
+    style ML3 fill:#f0e1ff
+    style ML4 fill:#f0e1ff
+    style ML5 fill:#f0e1ff
+    style DASH fill:#e1ffe1

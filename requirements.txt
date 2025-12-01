@@ -1,0 +1,52 @@
+# SmartStock IoT - Dependências Python
+
+# Core
+python>=3.11
+
+# Data Science & Machine Learning
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+statsmodels>=0.14.0
+
+# Visualização
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Dashboard
+dash>=2.11.0
+dash-bootstrap-components>=1.4.0
+
+# IoT & Comunicação
+paho-mqtt>=1.6.1
+flask>=2.3.0
+requests>=2.31.0
+
+# Jupyter
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipykernel>=6.23.0
+ipywidgets>=8.0.0
+
+# Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# Banco de Dados (opcional - para implementação real)
+# pymongo>=4.3.0
+# influxdb-client>=1.36.0
+# psycopg2-binary>=2.9.6
+
+# Testes
+pytest>=7.3.0
+pytest-cov>=4.1.0
+
+# Documentação
+sphinx>=6.2.0
+sphinx-rtd-theme>=1.2.0
+
+# Qualidade de Código
+black>=23.3.0
+flake8>=6.0.0
+pylint>=2.17.0
