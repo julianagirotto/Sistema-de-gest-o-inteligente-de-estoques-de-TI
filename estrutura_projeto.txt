@@ -4,16 +4,11 @@
 │   ├── arquitetura_projeto.md
 │   ├── diagrama_arquitetura.mmd
 │   ├── diagrama_arquitetura.png
-│   ├── relatorio_tecnico.md
-│   ├── relatorio_tecnico.pdf
-│   └── roteiro_video_pitch.md
 ├── estrutura_projeto.txt
 ├── notebooks
-│   └── SmartStock_IoT_Analise_Completa.ipynb
+│   └── .ipynb
 ├── requirements.txt
 └── src
     ├── ai_models.py
     ├── dashboard.py
     └── iot_simulator.py
-
-3 directories, 13 files
