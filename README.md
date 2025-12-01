@@ -67,7 +67,6 @@ O sistema segue a **arquitetura IoT de 5 camadas**:
 └─────────────────────────────────────────────────────────────┘
 ```
 
-![Diagrama de Arquitetura](docs/diagrama_arquitetura.png)
 
 ---
 
